@@ -3,35 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>srd</string>
+	<string>lsv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - TableViewDelegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSInteger section = indexPath.section;
-    NSInteger row = indexPath.row;
-    if (row == 0) {
-        ;
-    }
-    else if (row == 1) {
-        ;
-    }
-}
+	<string>
+UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"&lt;#Password#&gt;" bundle:nil];
+&lt;#SetNewPasswordViewController#&gt; *vc = [storyboard instantiateViewControllerWithIdentifier: @"&lt;#SetNewPasswordViewController#&gt;"];
+    [self presentViewController: vc animated: NO completion: nil];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>51E0497B-E2BF-49DE-9FFA-CE4CD7816E79</string>
+	<string>B8C5BAA5-593B-4D5C-BC13-6D251648EEA2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>didSelectRowAtIndexPath</string>
+	<string>load storyboard viewcontroller</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

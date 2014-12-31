@@ -9,11 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"&lt;#Password#&gt;" bundle:nil];
+	<string>UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"&lt;#Password#&gt;" bundle:nil];
 &lt;#SetNewPasswordViewController#&gt; *vc = [storyboard instantiateViewControllerWithIdentifier: @"&lt;#SetNewPasswordViewController#&gt;"];
-    [self presentViewController: vc animated: NO completion: nil];
-</string>
+    [self presentViewController: vc animated: NO completion: nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B8C5BAA5-593B-4D5C-BC13-6D251648EEA2</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -23,6 +21,6 @@ UIStoryboard *storyboard = [UIStoryboard storyboardWithName: @"&lt;#Password#&gt
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

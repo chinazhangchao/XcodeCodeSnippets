@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(@"&lt;#Message#&gt;", &lt;#Comment#&gt;)</string>
+	<string>NSLocalizedString(@"&lt;#Message#&gt;", nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>316B7212-4DA2-4737-B5EA-89C38B235144</string>
 	<key>IDECodeSnippetLanguage</key>

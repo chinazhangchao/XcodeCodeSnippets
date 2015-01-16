@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>afn</string>
+	<string>vwa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)awakeFromNib
+	<string>- (void)viewWillAppear:(BOOL)animated
 {
-    [super awakeFromNib];
+    [super viewWillAppear:animated];
     
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D174AE31-F79B-4866-A817-A9DD01CCF962</string>
+	<string>FDFCFACD-DBF6-4C70-BE2D-E90189D72065</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>awakeFromNib</string>
+	<string>viewWillAppear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
